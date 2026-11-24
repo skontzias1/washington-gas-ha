@@ -4,6 +4,7 @@
 
 <p align="center">
   <a href="https://hacs.xyz/docs/faq/custom_repositories/"><img src="https://img.shields.io/badge/HACS-Custom-orange.svg" alt="HACS custom repository"></a>
+  <a href="https://github.com/skontzias1/washington-gas-ha/releases/latest"><img src="https://img.shields.io/github/v/release/skontzias1/washington-gas-ha.svg" alt="Latest release"></a>
   <a href="https://github.com/skontzias1/washington-gas-ha/actions/workflows/validate.yml"><img src="https://github.com/skontzias1/washington-gas-ha/actions/workflows/validate.yml/badge.svg?branch=main" alt="Validate"></a>
   <img src="https://img.shields.io/badge/Home%20Assistant-2026.11%2B-18BCF2.svg?logo=homeassistant&logoColor=white" alt="Home Assistant 2026.11 or newer">
   <a href="LICENSE"><img src="https://img.shields.io/github/license/skontzias1/washington-gas-ha.svg" alt="MIT license"></a>
@@ -64,7 +65,7 @@ Please leave out your login, account number and bills.
 <details>
 <summary><b>Manual install</b></summary>
 
-1. Download this repository (**Code → Download ZIP**).
+1. Download the [latest release](https://github.com/skontzias1/washington-gas-ha/releases/latest) source.
 2. Copy `custom_components/washington_gas/` to `/config/custom_components/washington_gas/`.
 3. Restart Home Assistant.
 
