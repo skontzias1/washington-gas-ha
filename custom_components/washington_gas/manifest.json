@@ -1,0 +1,14 @@
+{
+  "domain": "washington_gas",
+  "name": "Washington Gas",
+  "codeowners": ["@skontzias1"],
+  "config_flow": true,
+  "dependencies": ["recorder"],
+  "documentation": "https://github.com/skontzias1/washington-gas-ha",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/skontzias1/washington-gas-ha/issues",
+  "loggers": ["opower"],
+  "requirements": ["opower>=0.23.1"],
+  "version": "0.2.0"
+}

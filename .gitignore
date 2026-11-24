@@ -1,0 +1,10 @@
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.venv/
+.env
+*.csv
+.DS_Store
+# Private workspace notes
+AGENTS.md
+CLAUDE.md

@@ -1,0 +1,59 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "description": "Sign in with your wgl.opower.com login (not the My Washington Gas login).",
+        "data": {
+          "username": "Email",
+          "password": "Password"
+        }
+      },
+      "reauth_confirm": {
+        "description": "Washington Gas rejected the saved password.",
+        "data": {
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Sign-in rejected",
+      "mfa_not_supported": "This account asks for a verification code, which is not supported",
+      "no_gas_account": "No gas account found for this login",
+      "cannot_connect": "Could not reach wgl.opower.com"
+    },
+    "abort": {
+      "already_configured": "Already set up",
+      "reauth_successful": "Password updated"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "description": "Compare one bill with the portal to confirm the unit.",
+        "data": {
+          "usage_unit": "Unit the portal reports",
+          "therms_per_ccf": "Therms per CCF (from your bill)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "last_bill_usage": {
+        "name": "Last bill usage"
+      },
+      "last_bill_cost": {
+        "name": "Last bill cost"
+      },
+      "last_bill_rate": {
+        "name": "Last bill average rate"
+      },
+      "last_bill_start": {
+        "name": "Last bill start"
+      },
+      "last_bill_end": {
+        "name": "Last bill end"
+      }
+    }
+  }
+}
